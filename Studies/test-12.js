@@ -32,3 +32,29 @@ function solution(price, money, count) {
       return answer - money;
   }
 }
+
+// // 수원
+// function solution(price, money, count) {
+//   var answer;
+//   var price = [price];
+
+//   for(var i = 1; i < count; i++) {
+//       price[i] = price[i-1] + price[0]
+//   }
+//   var total_price = price.reduce(function add(sum, cuurValue){
+//       return sum + cuurValue;
+//   })
+
+  
+//   money > total_price ? answer = 0 : answer = total_price - money
+
+//   if(money > total_price) {
+//       answer = 0;
+//   }else {
+//       answer = total_price - money
+//   }
+
+//   return answer;
+// }
+
+// solution(3, 35, 4)

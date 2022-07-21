@@ -19,3 +19,20 @@ function solution(n) {
   // .join('')를 통해 배열을 하나의 문자열로 다시 변화해줍니다.
   // 마지막으로 제일 밖에 있는 Number()라는 내장함수로 문자열을 숫자로 변화 시켜줍니다.
 }
+
+// 수원
+// // 내림차순으로 배치하기
+// function solution(n) {
+//   var answer = 0;
+//   let str = n.toString()
+
+//   let arr = str.split("");
+
+//   arr2 = arr.sort((a,b) => b-a)
+
+//   answer = Number(arr2.join(""))
+  
+//   return answer;
+// }
+// let n = 118372;
+// solution(n)

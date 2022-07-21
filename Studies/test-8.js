@@ -29,3 +29,19 @@ function solution(arr) {
   }
   return answer;
 }
+
+// // 수원
+// // 평균 구하기
+// function solution(arr) {
+//   var answer = 0;
+
+//   var add_arr = arr.reduce(function add(sum, cuurValue) {
+//       return sum + cuurValue;
+//   })
+
+//   answer = add_arr / arr.length;
+//   return answer;
+// }
+
+// var arr = [1,2,3,4]
+// solution(arr);
