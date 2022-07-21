@@ -21,3 +21,11 @@ solution(arr)
 
 
 // solution.js by ick
+function solution(arr) {
+    arr.splice(arr.indexOf(Math.min(...arr)),1);
+    return arr.length ? arr : [-1];
+    // …arr 로 전개 하여 그중에 최소값을 구하여 그게
+    // arr에 몇번째 인덱스에있는지 찾아낸다음
+    // 그 인덱스로부터 1개를 제거 한거구요
+    // arr.length 가 없으면 -1을 , 있으면 arr를 반환 하게 되어잇네요
+}
