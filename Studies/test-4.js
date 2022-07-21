@@ -25,3 +25,30 @@ function solution(a, b) {
   }
   return answer;
 }
+
+// 수원
+// // 두 정수 사이의 합
+// $(document).ready(function() {
+//   function solution(a, b) {
+
+//       var c = 0;
+
+//       if(a > b) {
+//           c = a
+//           a = b
+//           b = c
+//       }
+
+//       var answer = 0;
+
+//       for(var i = a; i <= b; i++) {
+//           answer = answer + i;
+//       }
+//       return answer;
+//   }
+
+//   1 + 2 + 3
+//   1 + 2 + 3 + 4 + 5 + 6
+//   console.log(solution(1, 6))
+
+// })

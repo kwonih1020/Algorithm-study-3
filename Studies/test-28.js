@@ -44,3 +44,24 @@ function solution(x) {
       return false;
   }
 }
+
+// 수원
+// function solution(x) {
+//   var answer = true;
+
+//   // let str = x.toString()
+//   // let arr = str.split("");
+//   // let num = arr.map((x) => Number(x))
+//   // let sum = num.reduce((sum, currValue) => sum + currValue)
+
+//   let sum = x.toString().split("").map((x) => Number(x)).reduce((sum, currValue) => sum + currValue)
+
+//   if(x % sum === 0) answer = true
+//   else answer = false
+
+//   console.log(answer)
+
+//   return answer;
+// }
+// let x = 11
+// solution(x);

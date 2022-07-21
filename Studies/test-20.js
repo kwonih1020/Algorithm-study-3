@@ -40,3 +40,22 @@ function solution(participant, completion) {
       }
   }
 }
+
+// 수원
+// // 완주하지 못한 선수
+// function solution(participant, completion) {
+
+//   participant.sort();
+//   console.log(participant.sort())
+//   completion.sort();
+//   console.log(completion.sort())
+//   console.log(completion[3])
+//   for(var i= 0; i < participant.length; i++) {
+//       if(participant[i] != completion[i]) return participant[i];
+//   }
+
+// }
+
+// var participant = ["eden","kiki","leo"];
+// var completion = ["eden", "kiki"];
+// solution(participant, completion);

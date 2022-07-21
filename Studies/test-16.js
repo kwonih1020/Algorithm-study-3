@@ -39,3 +39,31 @@ function solution(s){
   
   // 두 변수에 값이 똑같을때는 true, 틀리면 false를 반환해줍니다.
 }
+
+// 수원
+
+// // 문자열 내 p와 y의 개수
+// function solution(s){
+//   var answer;
+
+//   var upper_s = s.toUpperCase()
+//   var count_P = 0;
+//   var count_Y = 0;
+
+//   for(var i = 0; i < upper_s.length; i++) {
+//       if(upper_s[i] === 'P') count_P++;
+//       if(upper_s[i] === 'Y') count_Y++;
+//   }
+
+//   if(count_P === count_Y) {
+//       answer = true
+//   }else {
+//       answer = false
+//   }
+
+
+//   return answer;
+// }
+
+// var s = "pPoooyY"
+// solution(s);
