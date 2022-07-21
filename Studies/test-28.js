@@ -27,3 +27,20 @@
   // 13의 모든 자릿수의 합은 4입니다. 13은 4로 나누어 떨어지지 않으므로 13은 하샤드 수가 아닙니다.
 
 // solution.js
+function solution(x) {
+  let answer = 0;
+  // x 를 문자열로 변환 시켜줌과 동시에 ["1", "0"] 으로 변환 시켜준다.
+  let arr = String(x).split("");
+  
+  // 반복문을 통해 ["1", "0"] 우선 Number를 통해 숫자로 바꿔주고, answer에 더해준다
+  for (let i = 0; i < arr.length; i++) {
+      answer = answer + Number(arr[i]);
+  }
+  
+  // x 가 answer 값으로 나누어지는 검사한다.
+  if (x % answer == 0) {
+      return true;
+  } else {
+      return false;
+  }
+}
