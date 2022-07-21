@@ -11,7 +11,7 @@
   // 3	"수박수"
   // 4	"수박수박"
 
-// solution.js
+// solution.js by ick
 function solution(n) {
   return "수박".repeat(n).substring(0, n);
   // 여기서 "수박".repeat(n)에 뜻은 n만큼 "수박" 문자를 반복해준다는 뜻 입니다.

@@ -18,3 +18,14 @@ function solution(numbers) {
 
 var numbers = [1, 3]
 solution(numbers)
+
+
+// solution.js by ick
+function solution(numbers) {
+    let newNum = numbers.sort();
+    let answer = 0;
+    for (let i = 0; i < 10; i++) {
+       if(!newNum.includes(i)) answer += i;
+    }
+    return answer;
+}

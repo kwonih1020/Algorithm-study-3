@@ -10,7 +10,7 @@
   //     n	      return
   //   12345	  [5,4,3,2,1]
 
-// solution.js
+// solution.js by ick
 function solution(n) {
   let one = Array.from(String(n), Number);
   // Array.from()을 이용해서 n값에 숫자를 새로운 Array 로 만들어줍니다.

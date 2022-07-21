@@ -20,7 +20,7 @@
   // 입출력 예 #2
     // 'p'의 개수 1개, 'y'의 개수 2개로 다르므로 false를 return 합니다.
 
-// solution.js
+// solution.js by ick
 function solution(s){
   let lowerCase = s.toLowerCase();
   // 정확한 비교를 위해 우선 lowerCase라는 변수에 문자열에 있는 모든 문자를 소문자로 변경해주는 메소드 함수를 선언하고

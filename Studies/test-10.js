@@ -59,3 +59,16 @@ function solution(arr1, arr2) {
 
     return answer;
 }
+
+// solution.js by ick
+function solution(arr1, arr2) {
+    // return arr1.map((e, i) => arr2[i].map((v, j) => arr1[i][j] + arr2[i][j]));
+    
+    let arr3 = arr1.map(function(v, i) {
+        return arr2[i].map(function(e, j) {
+            return arr1[i][j] + arr2[i][j]
+        })
+    });
+    
+    return arr3;
+}

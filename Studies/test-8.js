@@ -12,8 +12,7 @@
   // [1,2,3,4]	  2.5
   //   [5,5]	     5
 
-// solution.js
-
+// solution.js by ick
 function solution(arr) {
     let answer = 0;
     const reducer = (accumulator, currentValue) => accumulator + currentValue;
