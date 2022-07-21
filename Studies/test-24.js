@@ -10,7 +10,7 @@
   //   n	    return
   // 118372	  873211
 
-// solution.js
+// solution.js by ick
 function solution(n) {
   return Number(n.toString().split("").sort((a,b) => b-a).join(''));
   // .toString()으로 우선 118372 => '118372'로 변화시켜주고, 

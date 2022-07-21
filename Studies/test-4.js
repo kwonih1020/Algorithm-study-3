@@ -15,7 +15,7 @@
   // 3	3	  3
   // 5	3	  12
 
-// solution.js
+// solution.js by ick
 function solution(a, b) {
   let answer = 0;
   let min = Math.min(a, b);

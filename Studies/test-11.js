@@ -13,7 +13,7 @@
   // 4	3	  [4,8,12]
   // -4	2	  [-4, -8]
 
-// solution.js
+// solution.js by ick
 function solution(x, n) {
   let answer = [];
   for (let i = 1; i <= n; i++) {

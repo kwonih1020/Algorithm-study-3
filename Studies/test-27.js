@@ -31,7 +31,7 @@
   // 주어진 수가 1인 경우에 대한 조건 추가
 
 
-// solution.js
+// solution.js by ick
 function solution(num) {
   let answer = 0;
   // num = 6;
