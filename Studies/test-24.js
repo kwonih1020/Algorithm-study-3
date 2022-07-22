@@ -36,3 +36,25 @@ function solution(n) {
 // }
 // let n = 118372;
 // solution(n)
+
+
+
+// function solution(n) {
+//   return n.toString().split("").sort().reverse().join("") * 1;
+//   // .toString() : 문자열로 반환
+//   // .split() : 문자열 나누기, join과 동일하게 쓸 것
+//   // .sort() : 문자열 정렬 ex) 알파벳은 abc 순서로 자동정렬, 숫자는 123 순서로 자동정렬
+//   // .reverse() : 문자열을 역순으로 정렬
+//   // .join() : 앞서 split으로 나눈 것을 다시 이어붙이기, split과 동일하게 쓸 것
+//   // parseInt() 문자열을 숫자로 전환. 이거 없으면 873211 라는 숫자가 아닌 "873211" 이라는 문자열로 인식
+//   // parseInt() 말고도 + 나 * 같은 연산자 붙여서 간단하게 숫자로 변환 시키는 방법도 있음
+// }
+
+
+// function solution(n) {
+//     var answer = 0;
+//     var array = n.toString().split("");
+//     array.sort().reverse();
+//     answer = parseInt(array.join(""));
+//     return answer;
+// }

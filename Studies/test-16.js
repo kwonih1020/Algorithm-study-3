@@ -67,3 +67,26 @@ function solution(s){
 
 // var s = "pPoooyY"
 // solution(s);
+
+
+
+
+
+// function solution(s){
+//   var result = true;
+//   //함수를 완성하세요
+//     var countp = 0;
+//   var county = 0;
+//   for(var i =0; i<s.length;i++)
+//   {
+//     if(s[i]=='p' || s[i]=='P')
+//         countp++;
+//     else if(s[i]=='y' || s[i]=='Y')
+//       county++;
+//   }
+//   if(countp==county)
+//     result = true;
+//   else
+//     result = false;
+//   return result;
+// }
